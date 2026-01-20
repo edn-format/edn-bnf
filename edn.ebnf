@@ -1,8 +1,3 @@
-# edn-bnf
-
-A formal [grammar](edn.ebnf) for [edn](https://github.com/edn-format/edn) in EBNF.
-
-``` ebnf
 Edn = { Spacing | EdnElement | ? End of input ? }- ;
 
 Spacing = { WhiteSpace | Comment | "," }- ;
@@ -120,13 +115,3 @@ TagPrefix = ? Alpha ? , { IdentifierBody } ;
 Instant = "#inst" , [ Spacing ] , ? RFC-3339 formatted string ? ;
 
 UUID = "#uuid" , [ Spacing ] , ? Canonical UUID string representation ? ;
-```
-
-## License
-
-Distributed under the [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html), the same as Clojure.
-
-## Changelog
-
-* Jan, 2026 - initial EBNF grammar
-* Jan, 2026 - initial publication
