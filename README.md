@@ -4,7 +4,7 @@ A formal [grammar](edn.ebnf) for [edn](https://github.com/edn-format/edn) in EBN
 
 ## Issues
 
-Please focus [issues]([issues](https://github.com/edn-format/edn-bnf/issues)) in this repository to problems with 
+Please focus [issues](https://github.com/edn-format/edn-bnf/issues) in this repository to problems with 
 this [EBNF](edn.ebnf) where it differs from the published [specification](https://github.com/edn-format/edn).
 For enhancements or issues in the spec itself, use the specification [issues](https://github.com/edn-format/edn/issues) page.
 
